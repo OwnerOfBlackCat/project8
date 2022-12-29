@@ -35,11 +35,19 @@ a {
 
 }
 
-img {
+.container {
+    display: flex;
+    background-image: url(background.png);
+    background-size: cover;
+    height: 643px;
+    width: 100%;
+}
+
+/* img {
     width: 100%;
     height: auto;
 }
-
+ */
 
 .forms {
     position: absolute;
